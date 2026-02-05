@@ -57,4 +57,4 @@
 </div>
 
 <br />
-<p align="right"><img height="120" src="https://i.imgflip.com/65efzo.gif" /></p>
+
