@@ -107,10 +107,6 @@ to ship reliable, high-performance systems.
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ajay-raut&theme=dracula" width="710" alt="Profile Details" />
 </div>
 
-
-<div align="center">
-  <img src="https://komarev.com/ghvc/?username=ajay-raut&label=Profile%20Views&color=bd93f9&style=flat-square" alt="Views Counter" />
-</div>
 ---
 
 ## 🐍 Contribution Timeline
