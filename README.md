@@ -96,18 +96,27 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
+<!-- ── Tier 1: Trophy Cabinet ── -->
 <a href="https://github.com/AjayRaut">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AjayRaut&show_icons=true&theme=tokyonight&count_private=true&border_radius=8&title_color=f77333&icon_color=00add8&border_color=30363d&bg_color=0d1117" alt="GitHub Stats" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/AjayRaut">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=AjayRaut&layout=compact&theme=tokyonight&langs_count=6&border_radius=8&title_color=f77333&border_color=30363d&bg_color=0d1117" alt="Top Languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AjayRaut&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=6&rank=SECRET,SSS,SS,S,AAA,AA,A" alt="GitHub Trophies" />
 </a>
 
 <br/><br/>
 
+<!-- ── Tier 2: Stats + Languages side-by-side ── -->
 <a href="https://github.com/AjayRaut">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjayRaut&theme=tokyonight&fire=f77333&ring=f77333&currStreakLabel=f77333&sideLabels=8b949e&background=0d1117&border=30363d&dates=8b949e" alt="GitHub Streak" />
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AjayRaut&show_icons=true&theme=tokyonight&count_private=true&border_radius=10&title_color=f77333&icon_color=f77333&text_color=c9d1d9&border_color=f7733340&bg_color=0d1117&include_all_commits=true&hide_border=false" alt="GitHub Stats" />
+</a>
+&nbsp;
+<a href="https://github.com/AjayRaut">
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=AjayRaut&layout=donut&theme=tokyonight&langs_count=8&border_radius=10&title_color=f77333&border_color=f7733340&bg_color=0d1117&hide_border=false" alt="Top Languages" />
+</a>
+
+<br/><br/>
+
+<!-- ── Tier 3: Streak — full width, perfectly themed ── -->
+<a href="https://github.com/AjayRaut">
+  <img src="https://streak-stats.demolab.com?user=AjayRaut&theme=tokyonight&hide_border=false&border_radius=10&background=0d1117&border=f7733340&ring=f77333&fire=f77333&currStreakLabel=f77333&sideLabels=8b949e&dates=8b949e&stroke=f7733320&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak" width="700" />
 </a>
 
 </div>
