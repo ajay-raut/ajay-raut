@@ -102,6 +102,10 @@ to ship reliable, high-performance systems.
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ajay-raut&theme=dracula&area=true&hide_border=true" width="710" alt="activity graph" />
 </div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ajay-raut&theme=dracula&no-bg=true&no-frame=true&column=4" alt="github trophies" />
+</div>
 ---
 
 ## 🐍 Contribution Timeline
