@@ -100,7 +100,7 @@ to ship reliable, high-performance systems.
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=tokyonight&hide_border=true" width="450" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=tokyonight" width="450" alt="GitHub Streak" />
 </div>
 
 ---
