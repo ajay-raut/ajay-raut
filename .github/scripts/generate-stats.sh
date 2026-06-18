@@ -4,8 +4,8 @@
 
 set -euo pipefail
 
-USERNAME="AjayRaut"
-GH_TOKEN="${GH_TOKEN:?GH_TOKEN is required}"
+USERNAME="ajay-raut"
+GH_TOKEN="${GH_TOKEN:STATS_PAT}"
 
 # ── Colors (matching existing theme) ──
 BG="#0d1117"
