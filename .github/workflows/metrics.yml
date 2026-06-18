@@ -21,7 +21,7 @@ jobs:
       # ── Stats + Languages (generated from GitHub API, no Vercel) ──
       - name: Generate Stats & Languages SVGs
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.STATS_PAT }}
           YEAR: "2025"
         run: |
           chmod +x .github/scripts/generate-stats.sh
