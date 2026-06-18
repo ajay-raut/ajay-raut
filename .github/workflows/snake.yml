@@ -20,7 +20,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: AjayRaut
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.STATS_PAT }}
           outputs: |
             dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake-dark.gif?palette=github-dark
