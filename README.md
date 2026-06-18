@@ -6,6 +6,12 @@
 
 <img src="developer_github_banner.jpeg" alt="Ajay Raut" width="100%" />
 
+<p align="center">
+  <a href="https://github.com/dipak-wagh">
+    <img src="https://avatars.githubusercontent.com/USERNAME?v=4&s=80" width="80" style="border-radius:50%" />
+  </a>
+</p>
+
 <h3 align="center">👥 My Network</h3>
 <p align="center">
   <a href="https://github.com/ajay-raut?tab=following">
