@@ -124,19 +124,19 @@ to ship reliable, high-performance systems.
   Watch commits snake their way across the grid ↓
 ```
 
-<!-- snake.yml commits both variants directly to main branch -->
+<!-- snake.yml commits animated GIFs directly to main branch -->
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="github-contribution-grid-snake-dark.svg"
+    srcset="github-contribution-grid-snake-dark.gif"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="github-contribution-grid-snake.svg"
+    srcset="github-contribution-grid-snake.gif"
   />
   <img
     alt="Contribution Snake"
-    src="github-contribution-grid-snake.svg"
+    src="github-contribution-grid-snake.gif"
   />
 </picture>
 
