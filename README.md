@@ -95,24 +95,15 @@ to ship reliable, high-performance systems.
 ## 📊 GitHub Metrics
 
 <div align="center">
-
-<!-- ── Stats + Languages (generated from GitHub API, no Vercel) ── -->
-<a href="https://github.com/ajay-raut">
-  <img height="180" src="github-stats.svg" alt="GitHub Stats" />
-</a>
-&nbsp;
-<a href="https://github.com/ajay-raut">
-  <img height="180" src="github-langs.svg" alt="Top Languages" />
-</a>
-
-<br/><br/>
-
-<!-- ── Tier 3: Streak (locally cached SVG) ── -->
-<a href="https://github.com/ajay-raut">
-  <img src="github-streak.svg" alt="GitHub Streak" width="700" />
-</a>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=ajay-raut&show_icons=true&theme=dracula&count_private=true" height="150" alt="stats graph" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajay-raut&layout=compact&theme=dracula&langs_count=5" height="150" alt="languages graph" />
 </div>
+
+<div align="center" style="margin-top: 10px;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=dracula" alt="streak stats" />
+</div>
+
 
 ---
 
