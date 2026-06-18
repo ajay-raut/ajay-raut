@@ -38,6 +38,29 @@
 <br/>
 
 ---
+## 🐍 Contribution Timeline
+
+<div align="center">
+
+<!-- snake.yml commits animated GIFs directly to main branch -->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="github-contribution-grid-snake-dark.gif"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="github-contribution-grid-snake.gif"
+  />
+  <img
+    alt="Contribution Snake"
+    src="github-contribution-grid-snake.gif"
+  />
+</picture>
+
+</div>
+
+---
 
 ## `$ whoami`
 
@@ -106,30 +129,6 @@ to ship reliable, high-performance systems.
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ajay-raut&theme=dracula" width="710" alt="Profile Details" />
-</div>
-
----
-
-## 🐍 Contribution Timeline
-
-<div align="center">
-
-<!-- snake.yml commits animated GIFs directly to main branch -->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="github-contribution-grid-snake-dark.gif"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="github-contribution-grid-snake.gif"
-  />
-  <img
-    alt="Contribution Snake"
-    src="github-contribution-grid-snake.gif"
-  />
-</picture>
-
 </div>
 
 ---
