@@ -172,19 +172,17 @@ to ship reliable, high-performance systems.
 <div align="center">
 
 <a href="https://www.linkedin.com/in/ajay-raut" target="_blank">
-  <img src="https://img.shields.io/badge/-%20-%23f77333?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22" alt="LinkedIn" />
+  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="40" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:ajayraut2500@gmail.com">
-  <img src="https://img.shields.io/badge/-%20-%23f77333?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22" alt="Gmail" />
+  <img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="40" alt="Gmail" />
 </a>
 &nbsp;
 <a href="https://github.com/ajay-raut" target="_blank">
-  <img src="https://img.shields.io/badge/-%20-%23f77333?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="GitHub" />
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" height="40" alt="GitHub" />
 </a>
 
 <br/><br/>
-
-<sub>Built with 🔶 and Fira Code · Pune, India</sub>
 
 </div>
