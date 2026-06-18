@@ -101,9 +101,8 @@ to ship reliable, high-performance systems.
 </div>
 
 <div align="center" style="margin-top: 10px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=dracula" alt="streak stats" />
+  <img src="https://github-readme-streak-stats.deno.dev/?user=ajay-raut&theme=dracula" alt="streak stats" />
 </div>
-
 
 ---
 
