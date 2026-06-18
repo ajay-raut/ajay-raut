@@ -103,22 +103,20 @@ to ship reliable, high-performance systems.
 
 <br/><br/>
 
-<!-- ── Tier 2: Stats + Languages
-     metrics.yml commits these to root of main branch            ── -->
+<!-- ── Tier 2: Stats + Languages ── -->
 <a href="https://github.com/AjayRaut">
-  <img height="180" src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/main/github-stats.svg" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AjayRaut&show_icons=true&theme=tokyonight&count_private=true&border_radius=10&title_color=f77333&icon_color=f77333&text_color=c9d1d9&border_color=f7733340&bg_color=0d1117&include_all_commits=true&hide_border=false" alt="GitHub Stats" />
 </a>
 &nbsp;
 <a href="https://github.com/AjayRaut">
-  <img height="180" src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/main/github-langs.svg" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=AjayRaut&layout=compact&theme=tokyonight&langs_count=8&border_radius=10&title_color=f77333&border_color=f7733340&bg_color=0d1117&hide_border=false" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
-<!-- ── Tier 3: Streak
-     metrics.yml commits this to root of main branch             ── -->
+<!-- ── Tier 3: Streak ── -->
 <a href="https://github.com/AjayRaut">
-  <img src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/main/github-streak.svg" alt="GitHub Streak" width="700" />
+  <img src="https://streak-stats.demolab.com?user=AjayRaut&theme=tokyonight&hide_border=false&border_radius=10&background=0d1117&border=f7733340&ring=f77333&fire=f77333&currStreakLabel=f77333&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak" width="700" />
 </a>
 
 </div>
