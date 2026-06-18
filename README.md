@@ -120,10 +120,6 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
-```
-  Watch commits snake their way across the grid ↓
-```
-
 <!-- snake.yml commits animated GIFs directly to main branch -->
 <picture>
   <source
