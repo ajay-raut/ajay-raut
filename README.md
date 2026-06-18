@@ -100,10 +100,6 @@ to ship reliable, high-performance systems.
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajay-raut&layout=compact&theme=dracula&langs_count=5" height="150" alt="languages graph" />
 </div>
 
-<div align="center" style="margin-top: 10px;">
-  <img src="./streak-stats.svg" alt="streak stats" />
-</div>
-
 ---
 
 ## 🐍 Contribution Timeline
