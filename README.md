@@ -77,7 +77,7 @@ to ship reliable, high-performance systems.
 **`☁️ Cloud & DevOps`**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,jenkins,gitlab&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,terraform,ansible,jenkins,gitlab&theme=dark&perline=8" />
 </a>
 
 <br/><br/>
@@ -85,7 +85,7 @@ to ship reliable, high-performance systems.
 **`💾 Databases & Tools`**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,linux,git&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,git&theme=dark&perline=8" />
 </a>
 
 </div>
