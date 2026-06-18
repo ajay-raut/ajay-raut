@@ -7,6 +7,13 @@
 <img src="developer_github_banner.jpeg" alt="Ajay Raut" width="100%" />
 
 <br/>
+<h3 align="center">👥 My Network</h3>
+
+<div align="center">
+  <a href="https://github.com/ajay-raut/followers">
+    <img src="https://github-readme-followers.vercel.app/api?username=ajay-raut&max=7&columns=7&circle=true" alt="My GitHub Network" />
+  </a>
+</div>
 
 <!-- Typing SVG — Fira Code, exact brand orange -->
 <a href="https://git.io/typing-svg">
