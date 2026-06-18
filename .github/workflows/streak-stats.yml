@@ -14,9 +14,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      
       - name: Generate Streak Stats
         uses: be-next/github-streak-stats-action@v1
         with:
           username: ajay-raut
           theme: dracula
           output-path: streak-stats.svg
+          token: ${{ secrets.STATS_PAT }} # 👈 Added this required input
