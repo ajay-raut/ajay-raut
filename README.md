@@ -135,9 +135,10 @@ to ship reliable, high-performance systems.
 
 ## 💬 What I'm Into
 
-<table width="100%">
+<div align="center">
+<table width="100%" style="margin-left: auto; margin-right: auto;">
   <tr>
-    <td width="33.3%" valign="top">
+    <td width="33.3%" valign="top" align="left">
       <h3>🔧 Engineering</h3>
       <ul>
         <li>Python · Go · FastAPI backends</li>
@@ -145,7 +146,7 @@ to ship reliable, high-performance systems.
         <li>Wazuh SIEM · Security ops</li>
       </ul>
     </td>
-    <td width="33.3%" valign="top">
+    <td width="33.3%" valign="top" align="left">
       <h3>☁️ Infrastructure</h3>
       <ul>
         <li>AWS · Docker · Kubernetes</li>
@@ -153,7 +154,7 @@ to ship reliable, high-performance systems.
         <li>GitLab · OpenSearch · Linux</li>
       </ul>
     </td>
-    <td width="33.3%" valign="top">
+    <td width="33.3%" valign="top" align="left">
       <h3>⚛️ Frontend</h3>
       <ul>
         <li>React · Next.js · Tailwind</li>
@@ -163,6 +164,7 @@ to ship reliable, high-performance systems.
     </td>
   </tr>
 </table>
+</div>
 ---
 
 ## 🤝 Connect
