@@ -103,8 +103,15 @@ to ship reliable, high-performance systems.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ajay-raut&theme=dracula&area=true&hide_border=true" width="710" alt="activity graph" />
 </div>
 
+
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ajay-raut&theme=dracula&no-bg=true&no-frame=true&column=4" alt="github trophies" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ajay-raut&show_icons=true&theme=dracula&count_private=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajay-raut&layout=compact&theme=dracula&langs_count=5" height="150" alt="languages graph" />
+</div>
+<br/>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ajay-raut&theme=dracula&utc_offset=5.5" width="710" alt="Productive Time" />
 </div>
 ---
 
