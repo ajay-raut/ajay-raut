@@ -4,7 +4,7 @@
 <!--                     HEADER BANNER                      -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-<img src="developer_github_banner.png" alt="Ajay Raut" width="100%" />
+<img src="developer_github_banner.jpeg" alt="Ajay Raut" width="100%" />
 
 <br/>
 
