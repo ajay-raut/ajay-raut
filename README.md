@@ -95,12 +95,12 @@ to ship reliable, high-performance systems.
 ## 📊 GitHub Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ajay-raut&show_icons=true&theme=dracula&count_private=true" height="150" alt="stats graph" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajay-raut&layout=compact&theme=dracula&langs_count=5" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ajay-raut&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajay-raut&layout=compact&theme=tokyonight&langs_count=5" height="150" alt="languages graph" />
 </div>
+<br/>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=dracula" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=tokyonight&hide_border=true" width="450" alt="GitHub Streak" />
 </div>
 
 ---
