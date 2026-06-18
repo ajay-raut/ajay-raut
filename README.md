@@ -99,6 +99,9 @@ to ship reliable, high-performance systems.
   
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajay-raut&layout=compact&theme=dracula&langs_count=5" height="150" alt="languages graph" />
 </div>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay-raut&theme=dracula" alt="GitHub Streak" />
+</div>
 
 ---
 
