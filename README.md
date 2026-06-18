@@ -101,7 +101,7 @@ to ship reliable, high-performance systems.
 </div>
 
 <div align="center" style="margin-top: 10px;">
-  <img src="https://streak-stats.demolab.com/?user=ajay-raut&theme=dracula" alt="streak stats" />
+  <img src="./streak-stats.svg" alt="streak stats" />
 </div>
 
 ---
