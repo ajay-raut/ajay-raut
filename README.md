@@ -15,23 +15,6 @@
 
 <br/><br/>
 
-<!-- Profile view counter -->
-<img src="https://api.visitorbadge.io/api/visitors?path=AjayRaut.AjayRaut&label=Profile%20Views&labelColor=%23161b22&countColor=%23f77333&style=flat-square" alt="Visitors" />
-
-<br/><br/>
-
-<!-- ─── Minimal Identity Badges ─── -->
-<a href="https://www.linkedin.com/in/ajay-raut">
-  <img src="https://img.shields.io/badge/Open%20to%20Work-%23f77333.svg?style=flat-square&logo=briefcase&logoColor=white" />
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/Pune%2C%20India-%23161b22.svg?style=flat-square&logo=googlemaps&logoColor=f77333" />
-&nbsp;
-<img src="https://img.shields.io/badge/2023%20Grad-%23161b22.svg?style=flat-square&logo=graduation-cap&logoColor=f77333" />
-&nbsp;
-<a href="mailto:ajayraut2500@gmail.com">
-  <img src="https://img.shields.io/badge/ajayraut2500%40gmail.com-%23161b22.svg?style=flat-square&logo=gmail&logoColor=f77333" />
-</a>
 
 </div>
 
