@@ -18,27 +18,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      # ── Stats Card ──────────────────────────────────────────────
-      - name: Fetch GitHub Stats SVG
+      # ── Stats + Languages (generated from GitHub API, no Vercel) ──
+      - name: Generate Stats & Languages SVGs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          YEAR: "2025"
         run: |
-          curl -sL \
-            -H "Accept: image/svg+xml" \
-            -H "User-Agent: GitHubActions/metrics-bot" \
-            "https://github-readme-stats.vercel.app/api?username=AjayRaut&show_icons=true&theme=tokyonight&count_private=true&border_radius=10&title_color=f77333&icon_color=f77333&text_color=c9d1d9&border_color=f7733340&bg_color=0d1117&include_all_commits=true&hide_border=false" \
-            -o github-stats.svg
-          echo "✅ github-stats.svg — $(wc -c < github-stats.svg) bytes"
+          chmod +x .github/scripts/generate-stats.sh
+          bash .github/scripts/generate-stats.sh
 
-      # ── Top Languages Card ───────────────────────────────────────
-      - name: Fetch Top Languages SVG
-        run: |
-          curl -sL \
-            -H "Accept: image/svg+xml" \
-            -H "User-Agent: GitHubActions/metrics-bot" \
-            "https://github-readme-stats.vercel.app/api/top-langs?username=AjayRaut&layout=compact&theme=tokyonight&langs_count=8&border_radius=10&title_color=f77333&border_color=f7733340&bg_color=0d1117&hide_border=false" \
-            -o github-langs.svg
-          echo "✅ github-langs.svg — $(wc -c < github-langs.svg) bytes"
-
-      # ── Streak Card ──────────────────────────────────────────────
+      # ── Streak Card (demolab — not Vercel, works reliably) ────────
       - name: Fetch Streak SVG
         run: |
           curl -sL \
@@ -48,27 +37,14 @@ jobs:
             -o github-streak.svg
           echo "✅ github-streak.svg — $(wc -c < github-streak.svg) bytes"
 
-      # ── Trophy Card ──────────────────────────────────────────────
-      - name: Fetch Trophy SVG
-        run: |
-          curl -sL \
-            -H "Accept: image/svg+xml" \
-            -H "User-Agent: GitHubActions/metrics-bot" \
-            "https://github-profile-trophy.vercel.app/?username=AjayRaut&theme=onedark&no-frame=false&no-bg=false&margin-w=8&column=6" \
-            -o github-trophies.svg
-          echo "✅ github-trophies.svg — $(wc -c < github-trophies.svg) bytes"
-
-      # ── Validate SVGs are real SVG files, not error pages ────────
+      # ── Validate SVGs ────────────────────────────────────────────
       - name: Validate SVG outputs
         run: |
-          for f in github-stats.svg github-langs.svg github-streak.svg github-trophies.svg; do
-            if grep -q "<svg" "$f"; then
-              echo "✅ $f is valid SVG"
+          for f in github-stats.svg github-langs.svg github-streak.svg; do
+            if [ -f "$f" ] && grep -q "<svg" "$f"; then
+              echo "✅ $f is valid SVG ($(wc -c < "$f") bytes)"
             else
-              echo "⚠️ $f may not be valid SVG — dumping first 200 chars:"
-              head -c 200 "$f"
-              echo ""
-              echo "Continuing anyway..."
+              echo "⚠️ $f missing or invalid"
             fi
           done
 
@@ -77,7 +53,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-stats.svg github-langs.svg github-streak.svg github-trophies.svg
+          git add github-stats.svg github-langs.svg github-streak.svg
           git diff --cached --quiet \
             && echo "No changes to commit" \
             || git commit -m "chore: update metrics SVGs [skip ci]" && git push
