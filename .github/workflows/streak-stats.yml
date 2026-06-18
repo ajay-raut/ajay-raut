@@ -1,0 +1,22 @@
+name: Update Streak Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Runs every day
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: # Allows you to run it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Streak Stats
+        uses: be-next/github-streak-stats-action@v1
+        with:
+          username: ajay-raut
+          theme: dracula
+          output-path: streak-stats.svg
