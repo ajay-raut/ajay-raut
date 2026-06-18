@@ -96,14 +96,7 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
-<!-- ── Tier 1: Trophy Cabinet (locally cached SVG) ── -->
-<a href="https://github.com/AjayRaut">
-  <img width="100%" src="github-trophies.svg" alt="GitHub Trophies" />
-</a>
-
-<br/><br/>
-
-<!-- ── Tier 2: Stats + Languages (locally cached SVGs) ── -->
+<!-- ── Stats + Languages (generated from GitHub API, no Vercel) ── -->
 <a href="https://github.com/AjayRaut">
   <img height="180" src="github-stats.svg" alt="GitHub Stats" />
 </a>
