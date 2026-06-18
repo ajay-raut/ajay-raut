@@ -19,7 +19,7 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: AjayRaut
+          github_user_name: ajay-raut
           github_token: ${{ secrets.STATS_PAT }}
           outputs: |
             dist/github-contribution-grid-snake.gif
