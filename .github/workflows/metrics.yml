@@ -1,0 +1,111 @@
+name: 📊 GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs daily at midnight UTC
+  workflow_dispatch:        # allows manual trigger from Actions tab
+  push:
+    branches: [main, master]
+
+jobs:
+  generate-stats:
+    name: Generate Stats Card
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── Stats Card ──────────────────────────────────────────────
+      - name: Generate GitHub Stats SVG
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const https = require('https');
+            const fs = require('fs');
+
+            const params = new URLSearchParams({
+              username:          'AjayRaut',
+              show_icons:        'true',
+              theme:             'tokyonight',
+              count_private:     'true',
+              border_radius:     '10',
+              title_color:       'f77333',
+              icon_color:        'f77333',
+              text_color:        'c9d1d9',
+              border_color:      'f7733340',
+              bg_color:          '0d1117',
+              include_all_commits: 'true',
+            });
+
+            const url = `https://github-readme-stats.vercel.app/api?${params}`;
+            const file = fs.createWriteStream('github-stats.svg');
+            https.get(url, res => res.pipe(file));
+            await new Promise(r => file.on('finish', r));
+            console.log('✅ github-stats.svg generated');
+
+      # ── Top Languages Card ───────────────────────────────────────
+      - name: Generate Top Languages SVG
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const https = require('https');
+            const fs = require('fs');
+
+            const params = new URLSearchParams({
+              username:      'AjayRaut',
+              layout:        'compact',
+              theme:         'tokyonight',
+              langs_count:   '8',
+              border_radius: '10',
+              title_color:   'f77333',
+              border_color:  'f7733340',
+              bg_color:      '0d1117',
+            });
+
+            const url = `https://github-readme-stats.vercel.app/api/top-langs?${params}`;
+            const file = fs.createWriteStream('github-langs.svg');
+            https.get(url, res => res.pipe(file));
+            await new Promise(r => file.on('finish', r));
+            console.log('✅ github-langs.svg generated');
+
+      # ── Streak Card ──────────────────────────────────────────────
+      - name: Generate Streak SVG
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const https = require('https');
+            const fs = require('fs');
+
+            const params = new URLSearchParams({
+              user:             'AjayRaut',
+              theme:            'tokyonight',
+              hide_border:      'false',
+              border_radius:    '10',
+              background:       '0d1117',
+              border:           'f7733340',
+              ring:             'f77333',
+              fire:             'f77333',
+              currStreakLabel:  'f77333',
+              sideLabels:       '8b949e',
+              dates:            '8b949e',
+              currStreakNum:    'ffffff',
+              sideNums:         'ffffff',
+            });
+
+            const url = `https://streak-stats.demolab.com?${params}`;
+            const file = fs.createWriteStream('github-streak.svg');
+            https.get(url, res => res.pipe(file));
+            await new Promise(r => file.on('finish', r));
+            console.log('✅ github-streak.svg generated');
+
+      # ── Commit all SVGs back to repo ─────────────────────────────
+      - name: Commit generated SVGs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg github-langs.svg github-streak.svg
+          git diff --cached --quiet || git commit -m "chore: update metrics SVGs [skip ci]"
+          git push
