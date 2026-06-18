@@ -96,27 +96,27 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
-<!-- ── Tier 1: Trophy Cabinet ── -->
+<!-- ── Tier 1: Trophy Cabinet (locally cached SVG) ── -->
 <a href="https://github.com/AjayRaut">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=AjayRaut&theme=onedark&no-frame=false&no-bg=false&margin-w=8&column=6" alt="GitHub Trophies" />
+  <img width="100%" src="github-trophies.svg" alt="GitHub Trophies" />
 </a>
 
 <br/><br/>
 
-<!-- ── Tier 2: Stats + Languages ── -->
+<!-- ── Tier 2: Stats + Languages (locally cached SVGs) ── -->
 <a href="https://github.com/AjayRaut">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AjayRaut&show_icons=true&theme=tokyonight&count_private=true&border_radius=10&title_color=f77333&icon_color=f77333&text_color=c9d1d9&border_color=f7733340&bg_color=0d1117&include_all_commits=true&hide_border=false" alt="GitHub Stats" />
+  <img height="180" src="github-stats.svg" alt="GitHub Stats" />
 </a>
 &nbsp;
 <a href="https://github.com/AjayRaut">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=AjayRaut&layout=compact&theme=tokyonight&langs_count=8&border_radius=10&title_color=f77333&border_color=f7733340&bg_color=0d1117&hide_border=false" alt="Top Languages" />
+  <img height="180" src="github-langs.svg" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
-<!-- ── Tier 3: Streak ── -->
+<!-- ── Tier 3: Streak (locally cached SVG) ── -->
 <a href="https://github.com/AjayRaut">
-  <img src="https://streak-stats.demolab.com?user=AjayRaut&theme=tokyonight&hide_border=false&border_radius=10&background=0d1117&border=f7733340&ring=f77333&fire=f77333&currStreakLabel=f77333&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak" width="700" />
+  <img src="github-streak.svg" alt="GitHub Streak" width="700" />
 </a>
 
 </div>
@@ -131,19 +131,19 @@ to ship reliable, high-performance systems.
   Watch commits snake their way across the grid ↓
 ```
 
-<!-- snake.yml pushes both variants to the `output` branch via Platane/snk@v3 -->
+<!-- snake.yml commits both variants directly to main branch -->
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake-dark.svg"
+    srcset="github-contribution-grid-snake-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake.svg"
+    srcset="github-contribution-grid-snake.svg"
   />
   <img
     alt="Contribution Snake"
-    src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake.svg"
+    src="github-contribution-grid-snake.svg"
   />
 </picture>
 
@@ -181,4 +181,4 @@ to ship reliable, high-performance systems.
 
 <sub>Built with 🔶 and Fira Code · Pune, India</sub>
 
-</div> 
+</div>
