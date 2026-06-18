@@ -97,18 +97,18 @@ to ship reliable, high-performance systems.
 <div align="center">
 
 <!-- ── Stats + Languages (generated from GitHub API, no Vercel) ── -->
-<a href="https://github.com/AjayRaut">
+<a href="https://github.com/ajay-raut">
   <img height="180" src="github-stats.svg" alt="GitHub Stats" />
 </a>
 &nbsp;
-<a href="https://github.com/AjayRaut">
+<a href="https://github.com/ajay-raut">
   <img height="180" src="github-langs.svg" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
 <!-- ── Tier 3: Streak (locally cached SVG) ── -->
-<a href="https://github.com/AjayRaut">
+<a href="https://github.com/ajay-raut">
   <img src="github-streak.svg" alt="GitHub Streak" width="700" />
 </a>
 
@@ -162,7 +162,7 @@ to ship reliable, high-performance systems.
   <img src="https://img.shields.io/badge/Gmail-ajayraut2500-%23f77333?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22" />
 </a>
 &nbsp;
-<a href="https://github.com/AjayRaut">
+<a href="https://github.com/ajay-raut">
   <img src="https://img.shields.io/badge/GitHub-AjayRaut-%23f77333?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" />
 </a>
 
