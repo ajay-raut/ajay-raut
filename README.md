@@ -6,12 +6,6 @@
 
 <img src="developer_github_banner.jpeg" alt="Ajay Raut" width="100%" />
 
-<p align="center">
-  <a href="https://github.com/dipak-wagh">
-    <img src="https://avatars.githubusercontent.com/dipakwagh?v=4&s=80" width="80" style="border-radius:50%" />
-  </a>
-</p>
-
 <!-- Typing SVG — Fira Code, exact brand orange -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F77333&center=true&vCenter=true&width=540&lines=Hi+%F0%9F%91%8B+I'm+Ajay+Raut;Software+Developer+%7C+Cloud+%26+DevOps;Building+Scalable+Systems+%2B+Fast+APIs;Open+to+Collaborations+%26+Opportunities" alt="Typing SVG" />
