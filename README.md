@@ -152,7 +152,7 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ajay-raut" target="_blank">
+<a href="https://www.linkedin.com/in/ajay-raut2500/" target="_blank">
   <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="40" alt="LinkedIn" />
 </a>
 &nbsp;
