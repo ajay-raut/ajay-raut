@@ -135,28 +135,50 @@ to ship reliable, high-performance systems.
 
 ## 💬 What I'm Into
 
-| 🔧 Engineering | ☁️ Infrastructure | ⚛️ Frontend |
-|:---|:---|:---|
-| Python · Go · FastAPI backends | AWS · Docker · Kubernetes | React · Next.js · Tailwind |
-| REST APIs · TDD · Layered arch | CI/CD · GitHub Actions · Jenkins | Component design · State mgmt |
-| Wazuh SIEM · Security ops | GitLab · OpenSearch · Linux | TypeScript · Responsive UI |
-
+<table width="100%">
+  <tr>
+    <td width="33.3%" valign="top">
+      <h3>🔧 Engineering</h3>
+      <ul>
+        <li>Python · Go · FastAPI backends</li>
+        <li>REST APIs · TDD · Layered arch</li>
+        <li>Wazuh SIEM · Security ops</li>
+      </ul>
+    </td>
+    <td width="33.3%" valign="top">
+      <h3>☁️ Infrastructure</h3>
+      <ul>
+        <li>AWS · Docker · Kubernetes</li>
+        <li>CI/CD · GitHub Actions · Jenkins</li>
+        <li>GitLab · OpenSearch · Linux</li>
+      </ul>
+    </td>
+    <td width="33.3%" valign="top">
+      <h3>⚛️ Frontend</h3>
+      <ul>
+        <li>React · Next.js · Tailwind</li>
+        <li>Component design · State mgmt</li>
+        <li>TypeScript · Responsive UI</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🤝 Connect
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ajay-raut">
-  <img src="https://img.shields.io/badge/LinkedIn-Ajay%20Raut-%23f77333?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22" />
+<a href="https://www.linkedin.com/in/ajay-raut" target="_blank">
+  <img src="https://img.shields.io/badge/-%20-%23f77333?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:ajayraut2500@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-ajayraut2500-%23f77333?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22" />
+  <img src="https://img.shields.io/badge/-%20-%23f77333?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22" alt="Gmail" />
 </a>
 &nbsp;
-<a href="https://github.com/ajay-raut">
-  <img src="https://img.shields.io/badge/GitHub-AjayRaut-%23f77333?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" />
+<a href="https://github.com/ajay-raut" target="_blank">
+  <img src="https://img.shields.io/badge/-%20-%23f77333?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="GitHub" />
 </a>
 
 <br/><br/>
