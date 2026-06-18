@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/dipak-wagh">
-    <img src="https://avatars.githubusercontent.com/USERNAME?v=4&s=80" width="80" style="border-radius:50%" />
+    <img src="https://avatars.githubusercontent.com/dipak-wagh?v=4&s=80" width="80" style="border-radius:50%" />
   </a>
 </p>
 
