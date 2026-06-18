@@ -58,49 +58,35 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
-<!-- ── Languages ── -->
-<table border="0"><tr><td align="center">
-
 **`💻 Languages`**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,python,js,ts&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=go,python,js,ts&theme=dark&perline=8" />
 </a>
 
-</td></tr></table>
-
-<!-- ── Frameworks & Libraries ── -->
-<table border="0"><tr><td align="center">
+<br/><br/>
 
 **`⚡ Frameworks & Libraries`**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,tailwind,nodejs,express,angular&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,tailwind,nodejs,express,angular&theme=dark&perline=8" />
 </a>
 
-</td></tr></table>
-
-<!-- ── Cloud & DevOps ── -->
-<table border="0"><tr><td align="center">
+<br/><br/>
 
 **`☁️ Cloud & DevOps`**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,jenkins,gitlab&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,jenkins,gitlab&theme=dark&perline=8" />
 </a>
 
-</td></tr></table>
-
-<!-- ── Databases & Tools ── -->
-<table border="0"><tr><td align="center">
+<br/><br/>
 
 **`💾 Databases & Tools`**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,linux,git&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,linux,git&theme=dark&perline=8" />
 </a>
-
-</td></tr></table>
 
 </div>
 
