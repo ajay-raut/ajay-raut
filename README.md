@@ -96,27 +96,29 @@ to ship reliable, high-performance systems.
 
 <div align="center">
 
-<!-- ── Tier 1: Trophy Cabinet (github-profile-trophy, no Vercel) ── -->
+<!-- ── Tier 1: Trophy Cabinet ── -->
 <a href="https://github.com/AjayRaut">
   <img width="100%" src="https://github-profile-trophy.vercel.app/?username=AjayRaut&theme=onedark&no-frame=false&no-bg=false&margin-w=8&column=6" alt="GitHub Trophies" />
 </a>
 
 <br/><br/>
 
-<!-- ── Tier 2: Stats + Languages — GitHub Actions generated SVGs ── -->
+<!-- ── Tier 2: Stats + Languages
+     metrics.yml commits these to root of main branch            ── -->
 <a href="https://github.com/AjayRaut">
-  <img height="180" src="./github-stats.svg" alt="GitHub Stats" />
+  <img height="180" src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/main/github-stats.svg" alt="GitHub Stats" />
 </a>
 &nbsp;
 <a href="https://github.com/AjayRaut">
-  <img height="180" src="./github-langs.svg" alt="Top Languages" />
+  <img height="180" src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/main/github-langs.svg" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
-<!-- ── Tier 3: Streak — GitHub Actions generated SVG ── -->
+<!-- ── Tier 3: Streak
+     metrics.yml commits this to root of main branch             ── -->
 <a href="https://github.com/AjayRaut">
-  <img src="./github-streak.svg" alt="GitHub Streak" width="700" />
+  <img src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/main/github-streak.svg" alt="GitHub Streak" width="700" />
 </a>
 
 </div>
@@ -131,7 +133,21 @@ to ship reliable, high-performance systems.
   Watch commits snake their way across the grid ↓
 ```
 
-<img src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+<!-- snake.yml pushes both variants to the `output` branch via Platane/snk@v3 -->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="Contribution Snake"
+    src="https://raw.githubusercontent.com/AjayRaut/AjayRaut/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 </div>
 
