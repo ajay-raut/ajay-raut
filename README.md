@@ -8,16 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/dipak-wagh">
-    <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <defs>
-        <clipPath id="circle">
-          <circle cx="40" cy="40" r="40"/>
-        </clipPath>
-      </defs>
-      <image href="https://avatars.githubusercontent.com/dipak-wagh?v=4&s=80"
-             width="80" height="80"
-             clip-path="url(#circle)"/>
-    </svg>
+    <img src="https://avatars.githubusercontent.com/dipakwagh?v=4&s=80" width="80" style="border-radius:50%" />
   </a>
 </p>
 
